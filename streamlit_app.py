@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from bs4 import BeautifulSoup
+from beautifulsoup4 import BeautifulSoup
 
 # 네이버 뉴스 크롤링
 def get_naver_news(query):
